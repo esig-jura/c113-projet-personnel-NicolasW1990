@@ -9,7 +9,7 @@
 - Objectifs du site : habitants de la Super-terre
 
 ### Fonctionnalités prévues
-- Navigation : .
+- Navigation : ..
 - Sections principales : …
 - Contenus proposés : …
 
