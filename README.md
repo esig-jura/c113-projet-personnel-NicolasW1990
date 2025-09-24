@@ -4,9 +4,9 @@
 ## 1. 🎨 Présentation du projet
 
 ### Concept
-- Thème choisi : …
-- Public cible : …
-- Objectifs du site : …
+- Thème choisi : Helldivers
+- Public cible : Futur Helldiver
+- Objectifs du site : habitants de la Super-terre
 
 ### Fonctionnalités prévues
 - Navigation : …
@@ -35,7 +35,7 @@
 ## 3. 🛠️ Outils et méthodologie
 
 ### Environnement de travail
-- IDE : …
+- IDE : WebStorm
 - Navigateurs de test : …
 - Versioning : Git + GitHub
 - Validation : Validator W3C, PageSpeed Insights, Wave
