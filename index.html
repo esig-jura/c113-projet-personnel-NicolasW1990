@@ -1,13 +1,204 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <title>Super-terre</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ministère de la Défense — Super‑Terre | Accueil</title>
+    <meta name="description" content="Rejoignez les Helldivers et répandez la Démocratie à travers la galaxie. Briefings, stratagèmes et enrôlement officiel du Ministère de la Défense de la Super‑Terre." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <h1> Helldivers</h1>
-    <button></button>
-<a href="www.google.com" class="google"> Aller sur google </a>
+<a class="skip-link" href="#contenu">Aller au contenu</a>
+
+<!-- Bandeau d’alerte -->
+<div class="top-alert" role="status" aria-live="polite">
+    <div class="ta-inner">
+        <strong>État Galactique:</strong> DEFCON II •
+        <strong>Fronts actifs:</strong> Gamma‑12, Sigma‑4 •
+        <strong>Transmission:</strong> 28.09.2185 — Code AIGLE‑ROUGE
+    </div>
+</div>
+
+<!-- Layout -->
+<div class="layout">
+    <!-- Contrôle off-canvas (sans JS) -->
+    <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true" />
+    <label for="nav-toggle" class="hamburger" aria-label="Ouvrir/fermer le menu" role="button" tabindex="0">
+        <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+        <span class="hamburger-text">Menu</span>
+    </label>
+
+    <!-- Barre latérale -->
+    <aside class="sidebar" aria-label="Navigation latérale">
+        <div class="brand">
+            <img src="assets/emblem.svg" alt="" class="brand-mark" />
+            <div class="brand-text">
+                <span class="brand-over">Super‑Terre</span>
+                <span class="brand-main">Ministère de la Défense</span>
+            </div>
+        </div>
+
+        <nav class="side-nav" aria-label="Navigation principale">
+            <ul>
+                <li><a aria-current="page" href="index.html">Accueil</a></li>
+                <li><a href="terminides.html">Menace Terminide</a></li>
+                <li><a href="automatons.html">Menace Automaton</a></li>
+                <li><a href="illuministes.html">Menace Illuministe</a></li>
+            </ul>
+        </nav>
+
+        <a class="btn btn--primary enroll-cta" href="#enrolement">S’enrôler</a>
+
+        <div class="sidebar-foot">
+            <p class="muted">Diffusion restreinte</p>
+        </div>
+    </aside>
+
+    <!-- Contenu principal -->
+    <main id="contenu" class="content">
+        <!-- Hero -->
+        <section class="hero" aria-label="Présentation du Ministère">
+            <div class="hero-media" role="img" aria-label="Affiche de propagande: drapeau de la Super‑Terre et flotte orbitale"></div>
+            <div class="hero-inner">
+                <h1 class="hero-title">Citoyen.ne, la Super‑Terre a besoin de toi.</h1>
+                <p class="hero-sub">Rejoignez les Helldivers et répandez la Démocratie, un chargeur après l’autre.</p>
+                <div class="hero-actions">
+                    <a class="btn btn--primary" href="#enrolement">S’enrôler maintenant</a>
+                    <a class="btn btn--ghost" href="#briefing">Voir le briefing</a>
+                </div>
+            </div>
+            <div class="hero-gradient" aria-hidden="true"></div>
+        </section>
+
+        <!-- Mission -->
+        <section class="section" id="mission">
+            <div class="grid grid--2">
+                <div>
+                    <h2>Mission du Ministère</h2>
+                    <p>Le Ministère de la Défense coordonne les opérations Helldivers à travers la galaxie pour défendre la Super‑Terre, sécuriser ses intérêts et <strong>exporter la Liberté</strong>.</p>
+                    <ul class="pill-list" role="list">
+                        <li>Ordre</li><li>Courage</li><li>Efficacité</li>
+                    </ul>
+                </div>
+                <div class="card card--steel">
+                    <h3 class="eyebrow">Stratagèmes — Accès autorisé</h3>
+                    <ul class="strata" role="list">
+                        <li><span>Frappe Eagle</span><em>Appui aérien</em></li>
+                        <li><span>Tourelle sentinelle</span><em>Défense de périmètre</em></li>
+                        <li><span>Railgun</span><em>Anti‑blindé</em></li>
+                        <li><span>Pack médical</span><em>Soins d’urgence</em></li>
+                    </ul>
+                    <a class="btn btn--secondary full" href="#stratagemes">Consulter les stratagèmes</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Briefing -->
+        <section class="section section--dark" id="briefing" aria-labelledby="titre-briefing">
+            <div class="grid grid--3">
+                <div class="card card--holo">
+                    <h2 id="titre-briefing">Transmission prioritaire</h2>
+                    <p><strong>28.09.2185</strong> — Mobilisation générale: poussée terminide en <em>Secteur Gamma‑12</em>, incursions automaton signalées, rumeurs d’activités illuministes. Autorisation de force maximale accordée.</p>
+                    <div class="inline-notice">
+                        <span class="dot dot--red" aria-hidden="true"></span> Alerte Ruche
+                        <span class="dot dot--amber" aria-hidden="true"></span> Incursion Automaton
+                        <span class="dot dot--violet" aria-hidden="true"></span> Anomalie Illuministe
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>Règles d’engagement</h3>
+                    <ul class="checklist" role="list">
+                        <li>Neutraliser les nids et fabricateurs en priorité.</li>
+                        <li>Préserver l’intégrité de l’escouade; extraction avant surcharge.</li>
+                        <li>Récupérer et sécuriser tout artefact suspect.</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3>Équipement recommandé</h3>
+                    <ul class="tag-list" role="list">
+                        <li>Munition perçante</li><li>Incendiaire</li><li>EMP</li>
+                        <li>Fumigènes</li><li>Mines de proximité</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Témoignages -->
+        <section class="section" id="temoignages">
+            <h2>Témoignages de Helldivers</h2>
+            <div class="grid grid--3">
+                <blockquote class="quote card">
+                    <p>“J’ai signé pour la démocratie, je reste pour les explosions.”</p>
+                    <footer>— Sergent Vega</footer>
+                </blockquote>
+                <blockquote class="quote card">
+                    <p>“Si ça bouge, c’est une cible. Si ça brille, appelez l’Eagle.”</p>
+                    <footer>— Caporale Lin</footer>
+                </blockquote>
+                <blockquote class="quote card">
+                    <p>“Extraction: l’art de survivre avec panache.”</p>
+                    <footer>— Officier K. Duarte</footer>
+                </blockquote>
+            </div>
+        </section>
+
+        <!-- Enrôlement -->
+        <section class="section section--accent" id="enrolement" aria-labelledby="titre-enrol">
+            <h2 id="titre-enrol">Formulaire d’enrôlement</h2>
+            <form class="enlist-form" action="#" method="post">
+                <div class="grid grid--3">
+                    <label class="field">
+                        <span>Nom et prénom</span>
+                        <input type="text" name="nom" required placeholder="Ex: Alex Morgan" />
+                    </label>
+                    <label class="field">
+                        <span>Matricule</span>
+                        <input type="text" name="matricule" required placeholder="Ex: ST‑7842‑A" />
+                    </label>
+                    <label class="field">
+                        <span>Escouade</span>
+                        <select name="escouade" required>
+                            <option value="">Choisir…</option>
+                            <option>Alpha</option><option>Bravo</option>
+                            <option>Charlie</option><option>Delta</option>
+                        </select>
+                    </label>
+                    <label class="field full">
+                        <span>Motivation</span>
+                        <textarea name="motivation" rows="3" placeholder="Pourquoi voulez-vous répandre la Démocratie ?"></textarea>
+                    </label>
+                    <label class="checkbox full">
+                        <input type="checkbox" name="serment" required />
+                        <span>Je jure de porter la Démocratie aux étoiles, de tenir la ligne et d’extraire mes camarades.</span>
+                    </label>
+                </div>
+                <div class="form-actions">
+                    <button class="btn btn--primary" type="submit">Valider l’enrôlement</button>
+                    <button class="btn btn--ghost" type="reset">Réinitialiser</button>
+                </div>
+                <p class="form-note">En soumettant, vous acceptez la <a href="#">Charte du Citoyen</a>. Données fictives pour usage RP.</p>
+            </form>
+        </section>
+
+        <!-- Pied de page -->
+        <footer class="site-footer">
+            <div class="footer-inner">
+                <div class="brand brand--small">
+                    <img src="assets/emblem.svg" alt="" class="brand-mark" />
+                    <div class="brand-text">
+                        <span class="brand-over">Super‑Terre</span>
+                        <span class="brand-main">Ministère de la Défense</span>
+                    </div>
+                </div>
+                <p class="muted">Propriété de la Super‑Terre — Gloire aux Helldivers.</p>
+            </div>
+        </footer>
+    </main>
+</div>
 </body>
 </html>
