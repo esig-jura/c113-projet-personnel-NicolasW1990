@@ -1,5 +1,5 @@
 /* ===== VARIABLES CSS ===== */
-/* Couleurs (bleu, gris, doré uniquement) */
+/* Couleurs (bleu, gris, doré ) */
 :root {
     --bleu: #1e40af;         /* Bleu foncé (Super Terre) */
     --bleu-clair: #60a5fa;    /* Bleu clair (survol) */
@@ -13,10 +13,10 @@
     --police-texte: 'Rajdhani', sans-serif;  /* Police pour le texte */
 
     /* Espacements */
-    --espace-xs: 0.5rem;   /* 8px */
+    --espace-xs: 0.5rem;   /* 8 px */
     --espace-s: 1rem;      /* 16px */
     --espace-m: 2rem;      /* 32px */
-    --espace-l: 3rem;      /* 48px */
+    --espace-l: 3rem;      /* 48 px */
 }
 
 /* ===== RESET ET BASE ===== */
