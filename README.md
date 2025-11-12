@@ -9,9 +9,9 @@
 - Objectifs du site : habitants de la Super-terre
 
 ### Fonctionnalités prévues
-- Navigation : ..
-- Sections principales : …
-- Contenus proposés : …
+- Navigation : navigation entre page
+- Sections principales : index
+- Contenus proposés :contact,equipement,faction
 
 ---
 
@@ -23,11 +23,11 @@
 - Articles ou documentations consultés
 
 ### Progression
-- Semaine 4 : …
-- Semaine 6 : …
-- Semaine 8 : …
-- Semaine 10 : …
-- Semaine 11 : …
+- Semaine 4 : OpenClassrooms
+- Semaine 6 : OpenClassrooms
+- Semaine 8 : refonte total
+- Semaine 10 : OpenClassrooms, youtube html/css
+- Semaine 11 : html
 - Semaine 12 : …
 
 ---
@@ -36,7 +36,7 @@
 
 ### Environnement de travail
 - IDE : WebStorm
-- Navigateurs de test : …
+- Navigateurs de test : google chrome
 - Versioning : Git + GitHub
 - Validation : Validator W3C, PageSpeed Insights, Wave
 
@@ -72,7 +72,7 @@
 
 ### Compatibilité
 - Navigateurs testés : Chrome …, Firefox …, Safari …
-- Appareils testés : mobile, tablette, desktop
+- Appareils testés :navigateur, visualisation mobile tekode (mobile, tablette, desktop)
 
 ### Accessibilité
 - Attributs alt : ✅
@@ -87,15 +87,15 @@
 
 ### IA utilisée
 - Nom et version : …
-- Contexte : génération de code / debug / recherche / rédaction
+- Contexte : génération de code css en majorité, analyse/debug  recherche 
 
 ### Utilisation détaillée
 - Contenu généré avec l’IA : …
 - Explication et adaptation personnelle du code généré
 
 ### Proportion
-- Structure HTML : …% personnel / …% aidé
-- CSS : …% personnel / …% aidé
+- Structure HTML : 80% personnel / 20% aidé
+- CSS : 60-70% personnel / 30-40% aidé
 - Responsive : …% personnel
 - Tests et validation : 100% personnel
 
