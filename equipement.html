@@ -1,10 +1,155 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Helldivers 2 - Équipement des Helldivers</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Rajdhani:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+<!-- Header identique -->
+<header class="header">
+    <div class="container">
+        <a href="index.html" class="logo">
+            <img src="img/logo.png" alt="Logo Helldivers 2" width="200">
+        </a>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li><a href="index.html" class="nav-link">Accueil</a></li>
+                <li><a href="factions.html" class="nav-link">Factions</a></li>
+                <li><a href="equipement.html" class="nav-link active">Équipement</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
 
+<main class="main">
+    <!-- Section héro -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Arsenal des Helldivers</h1>
+                <p class="subtitle">Découvrez l'<strong>équipement</strong> qui fera de vous un soldat redoutable. Chaque arme a son utilité contre les <em>factions ennemies</em>.</p>
+                <a href="#equipement-list" class="btn">Voir l'équipement</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section principale : Liste d'équipement  -->
+    <section class="about-game" id="equipement-list">
+        <div class="container">
+            <h2>Équipement Disponible</h2>
+            <p class="intro">Les Helldivers disposent d'un large choix d'armes et d'outils. Voici les catégories principales :</p>
+
+            <!-- Réutilise .game-description pour afficher les catégories -->
+            <div class="game-description">
+                <!-- Catégorie 1 : Armes Primaires -->
+                <div class="game-text">
+                    <h3>Armes Primaires</h3>
+                    <figure>
+                        <img src="img/weapons.jpg" alt="Armes primaires Helldivers 2">
+                        <figcaption>Un échantillon des armes disponibles pour les Helldivers.</figcaption>
+                    </figure>
+                    <p>Les <strong>armes primaires</strong> sont votre outil principal pour éliminer les ennemis. Chaque arme a ses forces et faiblesses.</p>
+                    <ul>
+                        <li><strong>AR-23 Liberator :</strong> Fusil d'assaut polyvalent, idéal pour les débutants.</li>
+                        <li><strong>PLAS-1 Scorcher :</strong> Fusil à plasma, efficace contre les Cyborgs.</li>
+                        <li><strong>SG-8 Punisher :</strong> Fusil à pompe, parfait pour les combats rapprochés.</li>
+                        <li><strong>R-63 Diligence :</strong> Pistolet-mitrailleur, léger et rapide.</li>
+                    </ul>
+                </div>
+
+                <!-- Catégorie 2 : Stratagèmes -->
+                <div class="game-text">
+                    <h3>Stratagèmes</h3>
+                    <figure>
+                        <img src="img/stratagems.jpg" alt="Stratagèmes Helldivers 2">
+                        <figcaption>Des frappes orbitales et autres outils tactiques.</figcaption>
+                    </figure>
+                    <p>Les <strong>stratagèmes</strong> sont des outils puissants appelés depuis l'orbite. Ils peuvent retourner le cours d'une bataille.</p>
+                    <ul>
+                        <li><strong>Frappe Orbital 120mm :</strong> Canon lourd pour éliminer les cibles blindées.</li>
+                        <li><strong>Lance-roquettes :</strong> Idéal contre les groupes d'ennemis.</li>
+                        <li><strong>Bouclier :</strong> Protège votre équipe des tirs ennemis.</li>
+                        <li><strong>Tourelle Automatique :</strong> Défend une zone clé.</li>
+                    </ul>
+                </div>
+
+                <!-- Catégorie 3 : Grenades -->
+                <div class="game-text">
+                    <h3>Grenades et Outils</h3>
+                    <figure>
+                        <img src="img/grenades.jpg" alt="Grenades Helldivers 2">
+                        <figcaption>Des outils pour toutes les situations.</figcaption>
+                    </figure>
+                    <p>Les <strong>grenades et outils</strong> complètent votre arsenal. Utilisez-les à bon escient pour maximiser leur efficacité.</p>
+                    <ul>
+                        <li><strong>Grenade à fragmentation :</strong> Dégâts de zone contre les ennemis groupés.</li>
+                        <li><strong>Grenade EM :</strong> Désactive les Automatons.</li>
+                        <li><strong>Pack Médical :</strong> Soigne les alliés blessés.</li>
+                        <li><strong>Charge Explosive :</strong> Détruit les structures ennemies.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section "Conseils" réutilisant .why-play -->
+    <section class="why-play">
+        <div class="container">
+            <h2>Conseils pour Bien Choisir</h2>
+            <div class="reasons">
+                <!-- Carte 1 -->
+                <div class="reason-card">
+                    <h3>Adaptez-vous</h3>
+                    <p>Choisissez votre équipement en fonction de la <strong>mission</strong> et des <strong>ennemis</strong> rencontrés.</p>
+                </div>
+                <!-- Carte 2 -->
+                <div class="reason-card">
+                    <h3>Équilibrez l'équipe</h3>
+                    <p>Assurez-vous que vos alliés couvre tous les rôles : <em>DPS, soutien, défense</em>.</p>
+                </div>
+                <!-- Carte 3 -->
+                <div class="reason-card">
+                    <h3>Expérimentez</h3>
+                    <p>Testez différentes combinaisons pour trouver <strong>votre style </strong> préféré.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!-- Footer identique -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="img/logo.png" alt="Logo Helldivers 2" width="150">
+            </div>
+            <div class="footer-links">
+                <h3>Liens utiles</h3>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="factions.html">Factions</a></li>
+                    <li><a href="equipement.html">Équipement</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h3>Suivez-nous</h3>
+                <ul>
+                    <li><a href="#">Ministère de la Vérité</a></li>
+                    <li><a href="#">Ministère de la Défense</a></li>
+                    <li><a href="#">Ministère de la Prospérité</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 Helldivers - Défense de la Super Terre. Tous droits réservés.</p>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

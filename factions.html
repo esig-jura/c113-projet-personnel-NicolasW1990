@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Helldivers 2 - Factions Ennemies</title>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Rajdhani:wght@500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
@@ -17,7 +18,7 @@
             <ul class="nav-list">
                 <li><a href="index.html" class="nav-link">Accueil</a></li>
                 <li><a href="factions.html" class="nav-link active">Factions</a></li>
-                <li><a href="equipment.html" class="nav-link">Équipement</a></li>
+                <li><a href="equipement.html" class="nav-link">Équipement</a></li>
                 <li><a href="contact.html" class="nav-link">Contact</a></li>
             </ul>
         </nav>
@@ -31,3 +32,121 @@
             <div class="hero-content">
                 <h1>Les Ennemis de la Super Terre</h1>
                 <p class="subtitle">Découvrez les <strong>trois factions</strong> qui menacent l'humanité dans Helldivers 2. Chaque ennemi a ses <em>points faibles</em> et ses <em>stratégies</em> uniques.</p>
+                <a href="#faction-list" class="btn">Voir les factions</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section principale : Liste des factions -->
+    <section class="about-game" id="faction-list">
+        <div class="container">
+            <h2>Factions Ennemies</h2>
+            <p class="intro">Les Helldivers doivent affronter des adversaires variés, chacun nécessitant une approche tactique différente. Voici leurs caractéristiques :</p>
+
+            <!-- Utilisation de la même structure que .game-description pour les cartes -->
+            <div class="game-description">
+                <!-- Faction 1 : Automatons -->
+                <div class="game-text">
+                    <h3>Automatons</h3>
+                    <figure>
+                        <img src="img/automatons.jpg" alt="Automatons - Robots ennemis">
+                        <figcaption>Des machines de guerre venues d'une autre galaxie.</figcaption>
+                    </figure>
+                    <p>Les <strong>Automatons</strong> sont des robots avancés, organisés en essaims mécanisés. Leur technologie surpassent souvent celle des Helldivers.</p>
+                    <ul>
+                        <li><strong>Unités clés :</strong> Chargers, Devastators, Wipers.</li>
+                        <li><strong>Faiblesse :</strong> Attaques électromagnétiques (EM).</li>
+                        <li><strong>Stratégie :</strong> Ciblez les articulations et les points névralgiques.</li>
+                    </ul>
+                </div>
+
+                <!-- Faction 2 : Terminids -->
+                <div class="game-text">
+                    <h3>Terminids</h3>
+                    <figure>
+                        <img src="img/terminids.jpg" alt="Terminids - Créatures insectoïdes">
+                        <figcaption>Des créatures organiques semblables à des insectes géants.</figcaption>
+                    </figure>
+                    <p>Les <strong>Terminids</strong> sont des êtres organiques, similaires à des insectes. Ils se reproduisent rapidement et attaquent en masse.</p>
+                    <ul>
+                        <li><strong>Unités clés :</strong> Workers, Chargers, Bile Titans.</li>
+                        <li><strong>Faiblesse :</strong> Feu et explosifs.</li>
+                        <li><strong>Stratégie :</strong> Évitez les zones infectées et utilisez des armes à zone.</li>
+                    </ul>
+                </div>
+
+                <!-- Faction 3 : Cyborgs -->
+                <div class="game-text">
+                    <h3>Cyborgs</h3>
+                    <figure>
+                        <img src="img/cyborgs.jpg" alt="Cyborgs - Hybrides machine/organique">
+                        <figcaption>Un mélange de chair et de technologie, redoutablement efficace.</figcaption>
+                    </figure>
+                    <p>Les <strong>Cyborgs</strong> combinent la biologie et la mécanique. Leur adaptabilité les rend dangereux sur tous les fronts.</p>
+                    <ul>
+                        <li><strong>Unités clés :</strong> Scavengers, Raiders, Juggernauts.</li>
+                        <li><strong>Faiblesse :</strong> Armes à plasma et attaques ciblées.</li>
+                        <li><strong>Stratégie :</strong> Utilisez des armes à haute pénétration pour percer leurs blindages.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section "Stratégies" réutilisant .why-play -->
+    <section class="why-play">
+        <div class="container">
+            <h2>Stratégies de Combat</h2>
+            <div class="reasons">
+                <!-- Carte 1 -->
+                <div class="reason-card">
+                    <h3>Coopération</h3>
+                    <p>Les factions sont conçues pour <strong>punir les joueurs solitaires</strong>. Communiquez avec votre équipe pour coordonner les attaques.</p>
+                </div>
+                <!-- Carte 2 -->
+                <div class="reason-card">
+                    <h3>Adaptation</h3>
+                    <p>Chaque faction nécessite un <strong>équipement différent</strong>. Adaptez vos armes en fonction de l'ennemi (ex: EM contre Automatons).</p>
+                </div>
+                <!-- Carte 3 -->
+                <div class="reason-card">
+                    <h3>Frappe Orbitales</h3>
+                    <p>Utilisez les <strong>stratagèmes</strong> (comme les frappes orbitales) pour éliminer les groupes d'ennemis ou les cibles blindées.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!-- Footer identique -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="img/logo.png" alt="Logo Helldivers 2" width="150">
+            </div>
+            <div class="footer-links">
+                <h3>Liens utiles</h3>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="factions.html">Factions</a></li>
+                    <li><a href="equipment.html">Équipement</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h3>Suivez-nous</h3>
+                <ul>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Discord</a></li>
+                    <li><a href="#">Reddit</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2024 Helldivers 2 - Défense de la Super Terre. Tous droits réservés.</p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
