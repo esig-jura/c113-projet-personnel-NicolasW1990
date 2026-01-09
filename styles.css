@@ -9,8 +9,8 @@
     --blanc: #ffffff;         /* Blanc (texte) */
 
     /* Polices (futuriste/militaire) */
-    --police-titre: 'Orbitron', sans-serif;  /* Police pour les titres */
-    --police-texte: 'Rajdhani', sans-serif;  /* Police pour le texte */
+    /*--police-titre: 'Orbitron', sans-serif;   Police pour les titres */
+    /*--police-texte: 'Rajdhani', sans-serif;   Police pour le texte */
 
     /* Espacements */
     --espace-xs: 0.5rem;   /* 8 px */
@@ -19,6 +19,26 @@
     --espace-l: 3rem;      /* 48 px */
 }
 
+
+/* Import des polices*/
+@font-face {
+    font-family: "Orbitron";
+    src: url('font/Orbitron-VariableFont_wght.ttf') format('truetype');
+}
+@font-face {
+    font-family: "Radjdhani";
+    src: url('font/Rajdhani-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: "Radjdhani Light";
+    src: url('font/Rajdhani-Light.ttf') format('truetype');
+}
+@font-face {
+    font-family: "Radjdhani Medium";
+    src: url('font/Rajdhani-Medium.ttf') format('truetype');
+}
+
+
 /* ===== RESET ET BASE ===== */
 * {
     margin: 0;
@@ -26,8 +46,18 @@
     box-sizing: border-box;
 }
 
+h1, h2, h3, h4, h5, h6{
+    font-family: "Orbitron", sans-serif;
+}
+
+p, li, a, figure{
+    font-family: "Radjdhani Medium", sans-serif;
+}
+figcaption{
+    font-family: "Radjdhani Medium", sans-serif;
+}
+
 body {
-    font-family: var(--police-texte);
     color: var(--blanc);
     line-height: 1.6;
     background-color: var(--gris);
@@ -94,9 +124,8 @@ body {
 
 /* ===== SECTION HÉRO (BANNIÈRE) ===== */
 .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/hero.jpg');
     background-size: cover;
-    background-position: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) center;
     color: var(--blanc);
     text-align: center;
     padding: var(--espace-l) 0;
@@ -109,7 +138,7 @@ body {
 }
 
 .hero h1 {
-    font-family: var(--police-titre);
+    font-family: Orbitron, sans-serif;
     font-size: 3rem;
     margin-bottom: var(--espace-s);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -127,7 +156,7 @@ body {
     background-color: var(--dore);
     color: var(--gris);
     padding: var(--espace-s) var(--espace-m);
-    border-radius: 4px;
+    border-radius: 1px;
     text-decoration: none;
     font-weight: 600;
     transition: all 0.3s;
@@ -147,7 +176,6 @@ body {
 }
 
 .about-game h2 {
-    font-family: var(--police-titre);
     color: var(--dore);
     text-align: center;
     margin-bottom: var(--espace-m);
@@ -186,7 +214,7 @@ body {
 
 .game-image img {
     width: 100%;
-    border-radius: 8px;
+    border-radius: 1px;
     border: 2px solid var(--dore);
 }
 
@@ -197,6 +225,14 @@ body {
     font-style: italic;
 }
 
+/* ===== LOGO HELLDIVERS 2 ===== */
+.logo {
+    width: 100px;     /* ajuste la taille ici */
+    height: auto;     /* garde les proportions */
+    display: block;
+    margin: 0 auto;   /* centre le logo */
+}
+
 /* ===== SECTION "POURQUOI JOUER ?" ===== */
 .why-play {
     padding: var(--espace-l) 0;
@@ -204,7 +240,6 @@ body {
 }
 
 .why-play h2 {
-    font-family: var(--police-titre);
     color: var(--dore);
     margin-bottom: var(--espace-m);
     font-size: 2.5rem;
@@ -219,8 +254,8 @@ body {
 
 .reason-card {
     background-color: var(--bleu);
-    border: 1px solid var(--dore);
-    border-radius: 8px;
+    border: 2px solid var(--dore);
+    border-radius: 1px;
     padding: var(--espace-m);
     width: 300px;
     transition: transform 0.3s;
