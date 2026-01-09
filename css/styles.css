@@ -23,19 +23,19 @@
 /* Import des polices*/
 @font-face {
     font-family: "Orbitron";
-    src: url('font/Orbitron-VariableFont_wght.ttf') format('truetype');
+    src: url('../font/Orbitron-VariableFont_wght.ttf') format('truetype');
 }
 @font-face {
     font-family: "Radjdhani";
-    src: url('font/Rajdhani-Bold.ttf') format('truetype');
+    src: url('../font/Rajdhani-Bold.ttf') format('truetype');
 }
 @font-face {
     font-family: "Radjdhani Light";
-    src: url('font/Rajdhani-Light.ttf') format('truetype');
+    src: url('../font/Rajdhani-Light.ttf') format('truetype');
 }
 @font-face {
     font-family: "Radjdhani Medium";
-    src: url('font/Rajdhani-Medium.ttf') format('truetype');
+    src: url('../font/Rajdhani-Medium.ttf') format('truetype');
 }
 
 
