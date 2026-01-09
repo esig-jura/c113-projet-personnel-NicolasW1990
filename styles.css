@@ -334,6 +334,10 @@ body {
     font-size: 0.9rem;
 }
 
+ul.feature-list {
+    list-style: none;
+}
+
 /* ===== RESPONSIVE (MOBILE) ===== */
 @media (max-width: 768px) {
     .header .container {
