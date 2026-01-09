@@ -6,21 +6,21 @@
 ### Concept
 - Thème choisi : Helldivers
 - Public cible : Futur Helldiver
-- Objectifs du site : habitants de la Super-terre
+- Objectifs du site : Vous aidez à prendre la décision la plus importante de votre vie
 
 ### Fonctionnalités prévues
 - Navigation : navigation entre page
 - Sections principales : index
-- Contenus proposés :contact,equipement,faction
+- Contenus proposés :contact, équipement, faction
 
 ---
 
 ## 2. 📚 Parcours d'apprentissage
 
 ### Ressources utilisées
-- Plateformes (OpenClassrooms, MDN, freeCodeCamp, etc.)
-- Vidéos / tutoriels suivis
-- Articles ou documentations consultés
+- Plateformes OpenClassrooms
+- Vidéos youtube
+- IA corrective
 
 ### Progression
 - Semaine 4 : OpenClassrooms
@@ -28,8 +28,8 @@
 - Semaine 8 : refonte total
 - Semaine 10 : OpenClassrooms, youtube html/css
 - Semaine 11 : html
-- Semaine 12 : …
-
+- Semaine 12 : IA, OpenClassrooms
+- Semaine 14 : IA
 ---
 
 ## 3. 🛠️ Outils et méthodologie
@@ -38,87 +38,82 @@
 - IDE : WebStorm
 - Navigateurs de test : google chrome
 - Versioning : Git + GitHub
-- Validation : Validator W3C, PageSpeed Insights, Wave
+- Validation : Validator W3C, PageSpeed, Color
 
 ### Méthodologie
 - Approche mobile-first
-- Commits réguliers et messages clairs
-- Tests sur plusieurs navigateurs et appareils
+- Travail en local et Commits lors de changement important
+- Tester sur plusieurs navigateurs et appareils
 
 ### Choix de design
 - Palette de couleurs :  
-  - Couleur principale : `#XXXXXX` – …
-  - Couleur secondaire : `#XXXXXX` – …
-  - Couleur d’accent : `#XXXXXX` – …
-  - Couleur de texte : `#XXXXXX` – …
-  - Couleur de fond : `#XXXXXX` – …
-- Lien vers palette générée : …
+  -bleu: #1e40af;         Bleu foncé (Super Terre) 
+  --bleu-clair: #60a5fa;   Bleu clair (survol) 
+  --gris: #1f2937;         Gris foncé (fond) 
+  --gris-clair: #9ca3af;    Gris clair (texte secondaire)
+  --dore: #d4af37;          Doré (accent) 
+  --blanc: #ffffff;         Blanc (texte)
 - Typographies :  
-  - Titres : … (fichiers dans `/fonts`)  
-  - Texte : … (fichiers dans `/fonts`)  
-
+  - Titres : Orbitron_VariableFont (fichiers dans `/fonts`)  
+  - Texte : Rajdhani-Bold, Rajdhani-Light, Radjhani-Medium(fichiers dans `/fonts`)
 ---
 
 ## 4. ✅ Tests et validation
 
 ### Validation technique
-- HTML Validator : résultat …
-- CSS Validator : résultat …
+- HTML Validator : résultat valider
+- CSS Validator : résultat valider aussi
 - PageSpeed Insights :  
-  - Performance : …/100  
-  - Accessibilité : …/100  
-  - Bonnes pratiques : …/100  
-  - SEO : …/100  
+  - Performance :100/100  
+  - Accessibilité :92/100  
+  - Bonnes pratiques 96/100  
+  - SEO : 91/100
 
 ### Compatibilité
-- Navigateurs testés : Chrome …, Firefox …, Safari …
-- Appareils testés :navigateur, visualisation mobile tekode (mobile, tablette, desktop)
+- Navigateurs testés : Chrome, Firefox et Safari
+- Appareils testés : navigateur, mobile
 
 ### Accessibilité
 - Attributs alt : ✅
 - Hiérarchie des titres : ✅
-- Contraste couleurs : conforme WCAG
+- Contraste couleurs : conforme sauf Fond bleu et écriture dorée
 - Navigation clavier : testée
 - Zoom 200% : lisible
-
 ---
 
 ## 5. 🤖 Usage de l’IA (si applicable)
 
 ### IA utilisée
-- Nom et version : …
-- Contexte : génération de code css en majorité, analyse/debug  recherche 
+- Nom et version : chatGPT
+- Contexte : génération de code css en majorité, analyse/debug, recherche et documentation 
 
 ### Utilisation détaillée
-- Contenu généré avec l’IA : …
-- Explication et adaptation personnelle du code généré
+- Contenu généré avec l’IA : contenu fais par moi meme mais, fourni à l'IA pour des correctifs et optimisation
 
 ### Proportion
 - Structure HTML : 80% personnel / 20% aidé
 - CSS : 60-70% personnel / 30-40% aidé
-- Responsive : …% personnel
+- Responsive : 30% personnel
 - Tests et validation : 100% personnel
-
 ---
 
 ## 6. 🎯 Bilan personnel
 
 ### Ce que j’ai appris
-- Compétences techniques acquises  
-- Découvertes surprenantes  
-- Concepts difficiles maîtrisés  
+- HTML, débutant
+- CSS, très très peu
+- Prompte IA, débutant
 
 ### Difficultés rencontrées
-- Problèmes techniques et solutions trouvées  
-- Moments de blocage et dépassement  
-- Aide reçue et sources  
+- Départ sans aucune connaissance
+- apprentissage de zéro
 
 ### Réussites et fiertés
-- Aspects du projet dont je suis fier  
-- Progrès constatés depuis le début  
-- Envies de développement futur  
+- Développement d'un site internet
+- Le site fonctionne
+
 
 ### Améliorations possibles
-- Ce que j’ajouterais avec plus de temps  
-- Fonctionnalités bonus envisagées  
-- Compétences à approfondir  
+- Développement d'éventuel formulaire
+- Rajout de JavaScripte
+
